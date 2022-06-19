@@ -1,0 +1,142 @@
+.container {
+    padding: 2rem 0rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.codeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.codeTitleAddress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.codeInfo div h1 {
+    font-size: 2rem;
+    margin-right: 2.5rem;
+}
+
+.infoActions {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.acciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.accionesSubactionsVisible {
+    border-radius: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.action {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.subactions {
+    display: none;
+}
+
+.subactionsVisible {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    overflow: hidden;
+}
+
+.subactionsVisible button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.blue {
+    background-color: #004F9A;
+    color: #fff;
+}
+
+.blue:hover {
+    background-color: #0059B3;
+}
+
+.green {
+    background-color: #48A901;
+    color: #fff;
+}
+
+.green:hover {
+    background-color: #5BBB0A;
+}
+
+.orange {
+    background-color: #FF630E;
+    color: #fff;
+}
+
+.orange:hover {
+    background-color: #FF6D1A;
+}
+
+.gray {
+    background-color: #6C6C6C;
+    color: #fff;
+}
+
+.gray:hover {
+    background-color: #7C7C7C;
+}
+
+.tags {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.socialLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* margin-top: 5px; */
+    gap: 0.5rem;
+}

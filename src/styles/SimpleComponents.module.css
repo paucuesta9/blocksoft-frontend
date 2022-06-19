@@ -1,0 +1,79 @@
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-green {
+    background-color: #48A901;
+}
+
+.btn-green:hover {
+    background-color: #378500;
+}
+
+.btn-blue {
+    background-color: #004F9A;
+}
+
+.btn-blue:hover {
+    background-color: #00417e;
+}
+
+.btn-red {
+    background-color: #ad0000;
+}
+
+.btn-red:hover {
+    background-color: #740000;
+}
+
+.big {
+    padding: 15px 4rem;
+    font-size: 1.1rem;
+    margin-top: 2.5rem;
+}
+
+.tag {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #DDDDDD;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.tagWithDetele {
+    padding-right: 2rem;
+}
+
+.tagClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    border: none;
+    color: #FF0000;
+    background: none;
+    cursor: pointer;
+}

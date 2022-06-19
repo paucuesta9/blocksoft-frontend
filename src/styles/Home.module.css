@@ -1,0 +1,92 @@
+.container {
+    /* padding: 2rem 0rem; */
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.background {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.background .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headerImage {
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headerImage img {
+    max-width: 70%;
+    height: 300px;
+    padding: 2.5rem;
+    border-radius: 50px;
+}
+
+.background:before {
+    content: '';
+    position: absolute;
+    width : 100%;
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+    
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 59%, rgba(255, 255, 255, 0.4) 100%), url('../src/img/home-background.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px);
+    filter: grayscale(100%);
+    transition: all 2s linear;
+}
+
+.background .container {
+    filter: none;
+}
+
+.containerTitle {
+    /* padding: 1rem; */
+    margin-right: 100px;
+    border-radius: 15px;
+}
+
+.header {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.containerTitle > h1 {
+    font-size: 3.5rem;
+}
+
+.containerTitle > h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.codeListSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.codeListSection > h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem auto;
+    text-align: center;
+}

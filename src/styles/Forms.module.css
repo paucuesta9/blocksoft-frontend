@@ -1,0 +1,165 @@
+.container {
+    padding: 2rem 0rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gridInfo {
+    display: grid;
+    grid-template-columns: 0.7fr 0.3fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gridInfo img {
+    width: 100%;
+    cursor: pointer;
+    border: 1px dotted #C1C1C1;
+    border-radius: 10px;
+}
+
+.gridInfo img:hover {
+    opacity: 0.5;
+}
+
+.formRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.formGroup label {
+    font-weight: 600;
+}
+
+.formGroupColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.max_width {
+    width: 100%;
+}
+
+.formGroup input, .formGroup select, .formGroup textarea {
+    outline: none;
+    background: #DDDDDD;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.formGroup textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+.codeSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.codeBox {
+    background: #DDDDDD;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    max-height: 200px;
+    cursor: pointer;
+    overflow-y: auto;
+}
+
+.codeItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.codeItem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 0.5rem;
+    width: 150px;
+    overflow: hidden;
+    cursor: default;
+}
+
+.codeItem img {
+    height: 50px;
+}
+
+.noCode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconNoCode {
+    width: 75px;
+    height: 75px;
+}
+
+.icon {
+    margin-right: 0.8rem;
+}
+
+.btnDelete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    border: none;
+    color: #FF0000;
+    padding: 15px 20px;
+    background: none;
+    cursor: pointer;
+}
+
+.inputTag {
+    min-width: 10px;
+    width: fit-content;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.figureRound img {
+    border-radius: 50%;
+}
+
+.bold {
+    font-weight: 600;
+}

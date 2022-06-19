@@ -1,0 +1,31 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px 1rem;
+    margin-top: 1rem;
+    table-layout: fixed;
+}
+
+.head {
+    background-color: #DDDDDD;
+    border: 1px solid #C1C1C1;
+}
+
+.head th {
+    padding: 0.8rem;
+    border: none;
+    text-align: left;
+}
+
+.row {
+    border: 1px solid #C1C1C1;
+}
+
+.row > td {
+    padding: 0.8rem;
+}
+
+.link * {
+    text-decoration: none;
+    color: #006699;
+}

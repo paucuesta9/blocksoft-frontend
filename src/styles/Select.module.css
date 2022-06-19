@@ -1,0 +1,75 @@
+.select {
+    position: relative;
+    min-width: 300px;
+    cursor: pointer;
+}
+
+.selected {
+    outline: none;
+    background: #DDDDDD;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selected_input {
+    position: relative;
+    outline: none;
+    background: #DDDDDD;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selected_input input {
+    width: 90%;
+    outline: none;
+    background: #DDDDDD;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.iconOpenClose {
+    padding-right: 1rem;
+}
+
+.options {
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #DDDDDD;
+    border: none;
+    border-radius: 5px;
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.options_item {
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.options_item img {
+    max-height: 100%;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.options_item:hover {
+    background: #EEEEEE;
+}
+
+.max_width {
+    width: 100%;
+}
